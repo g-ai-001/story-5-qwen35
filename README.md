@@ -16,11 +16,20 @@
 
 ## 版本历史
 
+### v1.0.0 终章篇
+- 完成最终决战剧情
+- 顾辰消灭深渊七绝
+- 顾辰与深渊之主的终极对决
+- 大结局：永恒的守望
+- 字数：约18万字
+- 发布地址：https://github.com/g-ai-001/story-5-qwen35/releases/tag/v1.0.0
+
 ### v0.6.0 新生与告别篇
 - 完成顾林恢复与告别剧情
 - 顾林向沈碧求婚
 - 顾林安详离世
 - 新角色顾辰出现
+- 字数：约5.1万字
 - 发布地址：https://github.com/g-ai-001/story-5-qwen35/releases/tag/v0.6.0
 
 ### v0.5.0 深渊试炼篇
@@ -38,15 +47,10 @@
 - 字数：约3.5万字
 - 发布地址：https://github.com/g-ai-001/story-5-qwen35/releases/tag/v0.3.0
 
-### v0.2.0 迷雾深渊篇
-- 完成第二个副本（克苏鲁风格）
-- 字数：约3.6万字
-- 发布地址：https://github.com/g-ai-001/story-5-qwen35/releases/tag/v0.2.0
-
-### v0.1.0 黄泉鬼域篇
-- 完成开篇与第一个副本
-- 字数：约2.5万字
-- 发布地址：https://github.com/g-ai-001/story-5-qwen35/releases/tag/v0.1.0
+### 早期版本（v0.1.0 - v0.2.0）
+- 黄泉鬼域篇（克苏鲁风格）
+- 迷雾深渊篇（克苏鲁风格）
+- 发布地址：https://github.com/g-ai-001/story-5-qwen35/releases
 
 ---
 
@@ -54,12 +58,11 @@
 
 | 版本 | 名称 | 状态 |
 |------|------|------|
+| v1.0.0 | 终章篇 | 已发布 |
 | v0.6.0 | 新生与告别篇 | 已发布 |
 | v0.5.0 | 深渊试炼篇 | 已发布 |
 | v0.4.0 | 黄昏圣殿篇 | 已发布 |
 | v0.3.0 | 机械地狱篇 | 已发布 |
-| v0.2.0 | 迷雾深渊篇 | 已发布 |
-| v0.1.0 | 黄泉鬼域篇 | 已发布 |
 
 ---
 
@@ -67,64 +70,20 @@
 
 ```
 chapters/
-├── v0.6.0/
-│   ├── chapter46.md  # 平凡的清晨
-│   ├── chapter47.md  # 过去的影子
-│   ├── chapter48.md  # 陷阱与真相
-│   ├── chapter49.md  # 白衣老人
-│   ├── chapter50.md  # 新的开始
-│   ├── chapter51.md  # 最后的礼物
-│   ├── chapter52.md  # 传承
-│   ├── chapter53.md  # 另一个时间线
-│   └── chapter54.md  # 新的家人
-├── v0.5.0/
-│   ├── chapter37.md  # 血祖新生
-│   ├── chapter38.md  # 深渊三头犬
-│   ├── chapter39.md  # 深渊觉醒
-│   ├── chapter40.md  # 消失的记忆
-│   ├── chapter41.md  # 深渊之心
-│   ├── chapter42.md  # 身世之谜
-│   ├── chapter43.md  # 深渊试炼的终点
-│   ├── chapter44.md  # 深渊之心的力量
-│   └── chapter45.md  # 终结与新生
-├── v0.4.0/
-│   ├── chapter28.md  # 血族的邀请
-│   ├── chapter29.md  # 血色的邀请
-│   ├── chapter30.md  # 血族领地
-│   ├── chapter31.md  # 血族公爵
-│   ├── chapter32.md  # 血战黄昏
-│   ├── chapter33.md  # 该隐的阴谋
-│   ├── chapter34.md  # 血与影的抉择
-│   ├── chapter35.md  # 血族新生
-│   └── chapter36.md  # 深渊祭坛
-├── v0.3.0/
-│   ├── chapter19.md  # 机械地狱
-│   ├── chapter20.md  # 电磁风暴
-│   ├── chapter21.md  # 机械之塔
-│   ├── chapter22.md  # 永恒之心
-│   ├── chapter23.md  # 战后余波
-│   ├── chapter24.md  # 深渊巨人
-│   ├── chapter25.md  # 深渊之子
-│   ├── chapter26.md  # 真相
-│   └── chapter27.md  # 新生
-├── v0.2.0/
-│   ├── chapter10.md  # 迷雾深渊
-│   ├── chapter11.md  # 埃盖托斯之芯
-│   ├── chapter12.md  # 记忆长廊
-│   ├── chapter13.md  # 克图格亚的审判
-│   ├── chapter14.md  # 旧日支配者
-│   ├── chapter15.md  # 战后余波
-│   ├── chapter16.md  # 星辰铁匠
-│   ├── chapter17.md  # 深渊兽潮
-│   └── chapter18.md  # 新的征程
-└── v0.1.0/
-    ├── chapter01.md  # 死亡倒计时
-    ├── chapter02.md  # 深渊系统
-    ├── chapter03.md  # 交易
-    ├── chapter04.md  # 黄泉鬼域
-    ├── chapter05.md  # 六道轮回台
-    ├── chapter06.md  # 望乡台
-    ├── chapter07.md  # 阎罗殿
-    ├── chapter08.md  # 七十二司
-    └── chapter09.md  # 轮回镜
+├── v1.0.0/           # 终章篇（第55-70章）
+├── v0.6.0/           # 新生与告别篇（第46-54章）
+├── v0.5.0/           # 深渊试炼篇（第37-45章）
+├── v0.4.0/           # 黄昏圣殿篇（第28-36章）
+├── v0.3.0/           # 机械地狱篇（第19-27章）
+├── v0.2.0/           # 迷雾深渊篇（第10-18章）
+└── v0.1.0/           # 黄泉鬼域篇（第1-9章）
 ```
+
+---
+
+## 作品统计
+
+- **总字数**：约41.4万字
+- **总章节**：70章
+- **版本数量**：6个主要版本
+- **完结状态**：已完结
